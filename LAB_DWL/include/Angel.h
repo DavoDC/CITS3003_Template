@@ -27,8 +27,8 @@
 // --- Include OpenGL header files and helpers ---
 //
 //   The location of these files vary by operating system.  We've included
-//     copies of open-soruce project headers in the "GL" directory local
-//     this this "include" directory.
+//   copies of open-source project headers in the "GL" directory local
+//   to this "include" directory.
 //
 
 // Rowan: Alas, OS X GLUT won't work with GLSL 1.50 anyway.

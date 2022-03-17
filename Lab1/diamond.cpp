@@ -64,6 +64,8 @@ void initS(void) {
         vec3(-1.0f, 0.0f, 0.0f), // The leftmost point
         vec3(-0.5f, 0.5f, 0.0f) // The middle of the top left quadrant
     };
+	//
+	//
     // # Method 2
     // This is another way to initialize points
     // vec3 points[numPoints];
@@ -77,11 +79,13 @@ void initS(void) {
     // points[6] = vec3(-1.0f, 0.0f, 0.0f);
     // points[7] = vec3(-0.5f, 0.5f, 0.0f);
     //
+	//
     // # Method 3
     // An equivalent way to initialize the points using vec2's
     // If you want to try this,
     // you will need to change glVertexAttribPointer()'s 2nd argument.
     // Scroll down to see more info about that function.
+	//
     // vec2 points[numPoints] = {
     //    vec2(0.0f, 1.0f),
     //    vec2(0.5f, 0.5f),
@@ -175,6 +179,7 @@ void initS(void) {
     //
     // - BUFFER_OFFSET(0) (const GLvoid* pointer) = Offset of 1st vertex in buffer
     //   -> We use an offset of 0 because we want to draw from the start
+	//   -> BUFFER_OFFSET() is actually a macro from Angel.h
     glVertexAttribPointer(vPos, 3, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
 
     // If you wanted to use vec2, for example:
@@ -212,11 +217,14 @@ void displayS(void) {
  * Main function
  */
 int main(int argc, char** argv) {
+	
     // Title
-    const char* title = "PurpleDiamond-DC";
+    const char* title = "Diamond";
 
     // Starting message
     std::cout << "\n" << title << "\n";
+	
+	// TRY Print(x)  and angel namespace!
 
     // Initialize glut and window
     glutInit(&argc, argv);
