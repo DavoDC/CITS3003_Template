@@ -1,0 +1,23 @@
+In 2015, I put in quite a fair bit of effort tidying up the code
+given by the author Angel. Most of my work was for the Linux version
+of the code.  For some of the souce .cpp files, I put in comments
+to help explain the code and I even added additional functionalities.
+You should read those comments and try to understand the code at
+your own time.
+
+In 2016, I tidied up some of the code for the Mac version as well.
+
+You should be able to compile and run most of the example programs
+without major issues. For the Mac OS, you should use only the code
+under the MAC_VERSIONS subdirectory. For Linux, you should use only
+the code under the LINUX_VERSIONS subdirectory.
+
+To compile, type:
+    make
+
+To clean up, type:
+    make clobber
+
+Du Huynh
+Coordinator of CITS3003
+Feb 2017

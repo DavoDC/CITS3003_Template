@@ -1,0 +1,12 @@
+Frame Buffer Objects
+
+render1 is a simple example of rendering an image into a texture and then using this texture. The first step renders a Sierpinski gasket from Chapter 2 into a texture. The second part renderes a single rectangle and uses this texture image to fill it.
+
+render2 adds a diffusion shader. First, we render the Sierpinski gasket into a texture and use this texture to fill a rectangle. We then add an idle function which does two things. First it diffuses this texture. Second it draws a randomly placed point. The idle function uses two textures and swaps between them so on each iteration there is a diffusion and a new point generated.
+
+-------------------
+
+See also the files README and render3.cpp in the ../LINUX_VERSION_Du directory.
+
+Du Huynh
+March 2016

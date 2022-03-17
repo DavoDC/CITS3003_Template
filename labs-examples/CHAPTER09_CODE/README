@@ -1,0 +1,14 @@
+Programs from Chapter 9
+
+example1.cpp: interactive particle simulation with particles inside a box
+   To bring up the menu, click the middle mouse button inside the
+   window. For all the programs that use menus, the glsl files for
+   the LINUX_VERSIONS directory should be the same as those in the
+   MAC_VERSIONS directory. Otherwise, you would find that the menu
+   items are greyed out. They are still affective but not being able
+   to see the text for individual menu item does not help.
+
+example2.cpp: fractal
+
+Du Huynh
+March 2017

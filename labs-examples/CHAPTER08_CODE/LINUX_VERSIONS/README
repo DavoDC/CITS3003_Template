@@ -1,0 +1,11 @@
+The examples in this directory show you how to have interactive menu.
+In all the examples, clicking the middle mouse button should bring up
+a menu. The user can select the limb of the robot to rotate. Clicking
+the left or right mouse button would then rotate the selected limb.
+If you encounter the problem that the text of the menu item is not
+visible (this problem seems to affect only the Linux side), then
+try to replace the glsl files by those supplied in the MAC_VERSIONS
+directory. 
+
+Du Huynh
+March 2017

@@ -1,0 +1,31 @@
+Frame Buffer Objects
+
+render1 is a simple example of rendering an image into a texture and then using this texture. The first step renders a Sierpinski gasket from Chapter 2 into a texture. The second part renderes a single rectangle and uses this texture image to fill it.
+
+render2 adds a diffusion shader. First, we render the Sierpinski gasket into a texture and use this texture to fill a rectangle. We then add an idle function which does two things. First it diffuses this texture. Second it draws a randomly placed point. The idle function uses two textures and swaps between them so on each iteration there is a diffusion and a new point generated.
+
+------------------------------------------------------------
+
+render1.cpp and render2.cpp were from the author Angel.
+
+For the program render1, I was able to get it to work on my laptop
+(Linux) which has the same version of OpenGL as my desktop. However,
+on my desktop (also Linux), I could see a Sierpinski gasket in a window
+but when the window is refeshed (i.e., the 'display' callback function
+is called) the entire window became red. It seemed that the Sierpinski
+gasket was not drawn into the texture map successfully.
+
+render3.cpp was modified from render1.cpp by me. It works the same as the
+render1 program. The main idea in these two programs is to generate an
+empty texture map and then draw a Sierpinksi triangle onto the texture
+map, so whenever the window needs to be repainted later on, we simply
+show this texture map rather than drawing many small triangles that
+compose the Sierpinski gasket.
+
+For more information, please see the comments given in the header part
+of render3.cpp.
+
+
+Du Huynh
+March 2016
+

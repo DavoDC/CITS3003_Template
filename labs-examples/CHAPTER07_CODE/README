@@ -1,0 +1,17 @@
+Some exmples from Chapter 7.
+
+chap07_6E_example1.c: rotating cube with checker board texture
+
+chap07_6E_example2.c: rotating cube using a reflection map
+
+chap07_6E_example3.c: bump map on one polygon with a rotation light
+
+----------------------------------
+
+I only managed to get example1 to work. Both example2 and example3
+are too complicated.
+
+Du Huynh
+March 2016
+
+

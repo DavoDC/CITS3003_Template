@@ -41,6 +41,8 @@ You are free to change the code however you want in your Lab folders.
 If you want to use this directly, it should work on Linux easily
 
 ### IMPORTANT NOTE FOR MAC USERS:
+Code files in Lab1,2.. folders are for LINUX only
+MAC USERS - Code files in Lab1,2.. folders will not work without changes
 - The makefiles and code files in the Lab folders (e.g. Lab1 etc.) are based on files from the LINUX_VERSIONS folder.
 - So you won’t be able to run these as-is, but the folder structure may still prove useful. 
 
