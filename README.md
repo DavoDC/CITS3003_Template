@@ -4,7 +4,7 @@
 - This repo demonstrates a good organisational system and folder structure for doing the labs.
 - The `labs-examples` folder is simply `labs-examples.zip` extracted
 - The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the `labs-examples` folder
-  - The same makefile is used for Lab1, 2 and 3
+  - The same makefile can be used for Lab1, 2 and 3
   - Lab4 and Lab5 will need a slightly different makefile, because the folder is one level lower
 
 ## Benefits
@@ -39,9 +39,9 @@ I highly recommend this folder structure as it will allow you to:
    - So you don’t need to re-download `lab-examples.zip`.
    - You are free to change the code however you want in your Lab folders.
 
-### Important Note for Mac Users:
-- The folder structure will work fine for you.
-- The but the files in Lab1 (makefile, CPP, shaders) will require a bit of editing before they can work.
+## Important Note for Mac Users:
+- The folder structure will work just fine for you.
+- But the files in Lab1 (makefile, CPP, shaders) will require a bit of editing before they can work.
 - I have added comments mentioning 'Mac' where these changes to need to occur.
 - So to make the changes, just search for 'Mac' and follow the instructions.
 
