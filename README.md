@@ -2,15 +2,15 @@
 
 ## Description
 - This repo demonstrates a good organisational system and folder structure for doing the labs.
-- The `labs-examples` folder is simply `labs-examples.zip` extracted
-- The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the `labs-examples` folder
+- The `LAB_DWL` folder is simply `labs-examples.zip` extracted
+- The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the `LAB_DWL` folder
   - The same makefile is used for Lab1, 2 and 3
   - Lab4 and Lab5 will need a slightly different makefile, because the folder is one level lower
 
 ## Benefits
 I highly recommend this folder structure as it will allow you to:
 - Only have the code you are working on in your current Lab folder.
-- Abstract away from the lab-examples folder. 
+- Abstract away from the `labs-examples`/`LAB_DWL` folder. 
 - Avoid dealing with so many levels of nested folders.
 - Have less code duplication
 - Find your code files easier
@@ -23,8 +23,8 @@ I highly recommend this folder structure as it will allow you to:
 
 ## Lab Usage Instructions
 1. **Open your CITS3003 folder in the file manager GUI**.
-2. **Enter the `labs-examples` folder and copy the needed base files for the Lab you are on**
-<br /> (e.g. For Lab1 on Linux, go into `CITS3003\labs-examples\CHAPTER02_CODE\LINUX_VERSIONS` and copy example1.cpp).
+2. **Enter the `LAB_DWL` folder and copy the needed base files for the Lab you are on**
+<br /> (e.g. For Lab1 on Linux, go into `CITS3003\LAB_DWL\CHAPTER02_CODE\LINUX_VERSIONS` and copy example1.cpp).
 3. **Paste them into the relevant Lab folder** 
 <br /> (e.g. Paste `example1.cpp` into `CITS3003\Lab1`).
 4. **Rename/edit/compile/execute your code within that Lab folder** 
@@ -34,9 +34,9 @@ I highly recommend this folder structure as it will allow you to:
 - There are text files throughout the folder structure to guide you.
 - I have included only one Makefile to make editing it for me easier - you'll have to copy it to where you need it
 - You can copy this Makefile to each folder (like I did)  ( <sub> or you may try using a ‘master makefile’ and a [symbolic link](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/) (but it'd only be for Labs1-3) </sub> ).
-- You shouldn't need to edit or compile anything in the `labs-examples` folder. 
+- You shouldn't need to edit or compile anything in the `LAB_DWL` folder. 
 - With this system, you’ll always have a copy of the original lab files:
-   - So you don’t need to re-download `lab-examples.zip`.
+   - So you don’t need to re-download `labs-examples.zip`.
    - You are free to change the code however you want in your Lab folders.
 
 ### Important Note for Mac Users:
