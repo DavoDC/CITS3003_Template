@@ -38,6 +38,7 @@ I highly recommend this folder structure as it will allow you to:
 - With this system, you’ll always have a copy of the original lab files:
    - So you don’t need to re-download `labs-examples.zip`.
    - You are free to change the code however you want in your Lab folders.
+- See `Example_of_Used_Folder_Structure.txt` for an example of a used template.
 
 ## Important Note for Mac Users
 - The folder structure will work just fine for you.
@@ -52,22 +53,20 @@ I highly recommend this folder structure as it will allow you to:
 
 ## TODO
 Fully comment all files in Lab1
-- diamond.cpp  (use matrixRot thing)
-  - explain every part of code, even vec 3 xyz stuff
-  - add shader paths, show they can be anything
-  - add vec3/vec2 info!! 
 - Makefile
 - vshader
 - fshader
 
+
+
 Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
 
-Fix makefile, test on Linux
-On Linux = Add example folder structure to this README by using output of TREE on actual CITS3003 folder
 Get a Mac user to test it out
 
 
-GUIDE:
+
+
+UPDATE GUIDE:
 
 ORGANISATION:
 Add repo link

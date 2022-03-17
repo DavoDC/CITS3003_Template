@@ -1,0 +1,193 @@
+
+Example of Used Folder Structure
+
+.
+├── Lab1
+│   ├── coordinates
+│   ├── coordinates.cpp
+│   ├── diamond
+│   ├── diamond.cpp
+│   ├── makefile
+│   ├── q1circle
+│   ├── q1circle.cpp
+│   ├── scene
+│   ├── scene.cpp
+│   ├── shaders
+│   │   ├── fshader21.glsl
+│   │   ├── fshaderS.glsl
+│   │   ├── vshader21.glsl
+│   │   └── vshaderS.glsl
+│   ├── sierpinski
+│   ├── sierpinski.cpp
+│   └── solutions
+│       ├── fshader.glsl
+│       ├── q1circle.cpp
+│       ├── q2pointsScene.cpp
+│       ├── q3triangleScene.cpp
+│       └── vshader.glsl
+│
+├── Lab2
+│   ├── makefile
+│   ├── matrixRotation
+│   ├── matrixRotation.cpp
+│   ├── q1square
+│   ├── q1square.cpp
+│   ├── q2sqrotate
+│   ├── q2sqrotate.cpp
+│   ├── shaders
+│   │   ├── fshader24.glsl
+│   │   ├── vrotate2d.glsl
+│   │   ├── vrotate2dMatrix.glsl
+│   │   └── vshader24.glsl
+│   └── solutions
+│       ├── fshader24.glsl
+│       ├── fshader.glsl
+│       ├── q1squareA.cpp
+│       ├── q1square.cpp
+│       ├── q2sqrotate.cpp
+│       ├── vrotate2d.glsl
+│       ├── vshader24.glsl
+│       └── vshader.glsl
+│
+├── Lab3
+│   ├── gaskRotv1
+│   ├── gaskRotv1.cpp
+│   ├── gaskRotv2
+│   ├── gaskRotv2.cpp
+│   ├── gaskRotv3
+│   ├── gaskRotv3.cpp
+│   ├── makefile
+│   ├── shaders
+│   │   ├── fshader24.glsl
+│   │   ├── vRotate1.glsl
+│   │   ├── vRotate2.glsl
+│   │   ├── vRotate3.glsl
+│   │   └── vshader24.glsl
+│   └── solutions
+│       └── lab3-soln
+│           ├── fpassthru.glsl
+│           ├── Makefile
+│           ├── q1manyrotate.cpp
+│           ├── q1vrotate2d.glsl
+│           ├── q2aSinCos.cpp
+│           ├── q2aSinCos-v.glsl
+│           └── ...
+│
+├── Lab4
+│   ├── fshader.glsl
+│   ├── Q1
+│   │   ├── makefile
+│   │   ├── q1
+│   │   ├── q1.cpp
+│   │   └── vshader1.glsl
+│   ├── Q2
+│   │   ├── makefile
+│   │   ├── q2
+│   │   ├── q2.cpp
+│   │   └── vshader2.glsl
+│   ├── Q3
+│   │   ├── makefile
+│   │   ├── q3
+│   │   ├── q3.cpp
+│   │   └── vshader3.glsl
+│   ├── Q4
+│   │   ├── makefile
+│   │   ├── matrixRotCube
+│   │   ├── matrixRotCube.cpp
+│   │   ├── q4
+│   │   ├── q4.cpp
+│   │   ├── vrotate2dMatrix.glsl
+│   │   └── vshader4.glsl
+│   ├── Q5
+│   │   ├── makefile
+│   │   ├── q5
+│   │   ├── q5.cpp
+│   │   └── vshader5.glsl
+│   ├── Q6
+│   │   ├── makefile
+│   │   ├── q6a
+│   │   ├── q6a.cpp
+│   │   ├── q6b
+│   │   ├── q6b.cpp
+│   │   ├── run.sh
+│   │   └── vshader6.glsl
+│   ├── Q7
+│   │   ├── makefile
+│   │   ├── q7a
+│   │   ├── q7a.cpp
+│   │   ├── q7b
+│   │   ├── q7b.cpp
+│   │   ├── run.sh
+│   │   └── vshader7.glsl
+│   └── solutions
+│       ├── fpassthru.glsl
+│       ├── makefile
+│       ├── q1sqRot3d
+│       ├── q1sqRot3d.cpp
+│       ├── q2sqsRot3d
+│       ├── q2sqsRot3d.cpp
+│       ├── q3sqsRot3d
+│       └── ...
+│
+├── Lab5
+│   ├── fshader.glsl
+│   ├── Q1
+│   │   ├── makefile
+│   │   ├── q1
+│   │   ├── q1.cpp
+│   │   └── vshader1.glsl
+│   ├── Q2
+│   │   ├── makefile
+│   │   ├── q2
+│   │   ├── q2.cpp
+│   │   └── vshader2.glsl
+│   ├── Q3
+│   │   ├── makefile
+│   │   ├── q3
+│   │   ├── q3.cpp
+│   │   └── vshader3.glsl
+│   ├── Q4
+│   │   ├── makefile
+│   │   ├── q4
+│   │   ├── q4.cpp
+│   │   └── vshader4.glsl
+│   └── solutions
+│       ├── fpassthru.glsl
+│       ├── Makefile
+│       ├── q1amat4.cpp
+│       ├── q1bManyTrans.cpp
+│       ├── q2perspective.cpp
+│       ├── q3reshapeAndMouse.cpp
+│       ├── q4aIndex.cpp
+│       └── ...
+│
+├── LAB_DWL
+│   ├── APPENDIX_A_EXAMPLES
+│   ├── CHAPTER02_CODE
+│   ├── CHAPTER03_CODE
+│   ├── CHAPTER04_CODE
+│   ├── CHAPTER05_CODE
+│   ├── CHAPTER07_CODE
+│   ├── CHAPTER08_CODE
+│   ├── CHAPTER09_CODE
+│   ├── CHAPTER10_CODE
+│   ├── Common
+│   │   ├── InitShader.cpp
+│   │   └── InitShader.o
+│   ├── EXTRAS
+│   ├── include
+│   │   ├── Angel.h
+│   │   ├── CheckError.h
+│   │   ├── GL
+│   │   │   ├── freeglut_ext.h
+│   │   │   ├── freeglut.h
+│   │   │   ├── freeglut_std.h
+│   │   │   ├── glew.h
+│   │   │   ├── glext.h
+│   │   │   ├── gl.h
+│   │   │   └── glut.h
+│   │   ├── mat.h
+│   │   └── vec.h
+│   ├── lib
+│   ├── README
+│   └── README_FIRST
