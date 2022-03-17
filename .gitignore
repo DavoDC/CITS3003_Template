@@ -1,4 +1,6 @@
 
-
 # Ignore all desktop.ini files
 *.ini
+
+# Ignore executable
+/Lab1/diamond

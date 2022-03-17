@@ -1,18 +1,22 @@
 # CITS3003_Template
-A template for CITS3003 students to help them organize their code files
-This repo demonstrates a good organisational system / folder structure
 
-The labs-examples folder is simply labs-examples.zip extracted
+## DESCRIPTION
+- A template for CITS3003 students to help them organize their code files
+- This repo demonstrates a good organisational system / folder structure
+- The labs-examples folder is simply labs-examples.zip extracted
+- The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the labs-examples folder
 
-The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the labs-examples folder
-
+## BENEFITS
 I highly recommend this folder structure as it will allow you to:
 - Only have the code you are working on in your current Lab folder
 - Abstract away from the lab-examples folder 
 - Avoid dealing with so many levels of nested folders.
 
 
-HOW TO USE:
+Text files with instructions have been added
+
+
+## HOW TO USE:
 If you using Mac, please see the note at the bottom first.
  `git clone https://github.com/DavoDC/CITS3003_Template`
 
@@ -53,3 +57,42 @@ I would advise just deleting the all the files in Lab1, Lab2 etc. , but keeping 
 
 A Link back to my Guide:
 <https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ/edit#> 
+
+
+## TODO
+
+
+add mac to makefile too
+
+Make diamond.cpp the simple starting point
+
+FIX makefile
+
+ADD COMMENTS TO MAKE FILE
+
+ADD COMMENTS TO SHADERS
+
+
+add full comments to diamond.cpp!! - use matrixRot
+
+Mention that comments have been added to diamond file, makefile and shaders!
+
+Download and test on X230!
+
+Add mac change comments to diamond.cpp
+
+e.g. APPLE
+
+explain every part of code, even vec 3 xyz stuff
+
+
+mentioned this is a simple but fully commented code file
+
+added documentation links
+
+add mac to makefile too
+
+
+add Mac stuff by using Mac versions folder!
+
+add EXAMPLE FOLDER IMAGES 
