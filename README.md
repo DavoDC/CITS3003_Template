@@ -33,7 +33,7 @@ I highly recommend this folder structure as it will allow you to:
 ## General Usage Instructions
 - There are text files throughout the folder structure to guide you.
 - I have included only one Makefile to make editing it for me easier - you'll have to copy it to where you need it
-- You can copy this Makefile to each folder (like I did), OR, you may try using a ‘master makefile’ and a [symbolic link](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/).
+- You can copy this Makefile to each folder (like I did)  ( <sub> or you may try using a ‘master makefile’ and a [symbolic link](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/) (but it'd only be for Labs1-3) </sub> ).
 - You shouldn't need to edit or compile anything in the `labs-examples` folder. 
 - With this system, you’ll always have a copy of the original lab files:
  - So you don’t need to re-download `lab-examples.zip`.
