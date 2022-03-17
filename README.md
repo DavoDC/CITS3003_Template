@@ -1,7 +1,7 @@
 # CITS3003_Template
 
 ## Description
-- This repo demonstrates a good organisational system / folder structure for doing the labs.
+- This repo demonstrates a good organisational system and folder structure for doing the labs.
 - The `labs-examples` folder is simply `labs-examples.zip` extracted
 - The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the `labs-examples` folder
   - The same makefile is used for Lab1, 2 and 3
