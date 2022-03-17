@@ -1,4 +1,4 @@
-# CITS3003_Template
+# CITS3003 Template Repository
 
 ## Description
 - This repo demonstrates a good organisational system and folder structure for doing the labs.
