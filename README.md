@@ -51,8 +51,6 @@ I highly recommend this folder structure as it will allow you to:
 
 
 ## TODO
-Add images of what folder should contain?
-
 Fully comment all files in Lab1
 - diamond.cpp  (use matrixRot thing)
   - explain every part of code, even vec 3 xyz stuff
@@ -65,6 +63,7 @@ Fully comment all files in Lab1
 Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
 
 Fix makefile, test on Linux
+On Linux = Add example folder structure to this README by using output of TREE on actual CITS3003 folder
 Get a Mac user to test it out
 
 
