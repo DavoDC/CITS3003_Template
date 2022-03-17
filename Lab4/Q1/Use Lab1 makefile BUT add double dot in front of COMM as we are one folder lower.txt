@@ -1,0 +1,6 @@
+
+EXAMPLE
+
+
+# Common location (DC)
+COMM = ../../LAB_DWL
