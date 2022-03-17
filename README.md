@@ -36,8 +36,8 @@ I highly recommend this folder structure as it will allow you to:
 - You can copy this Makefile to each folder (like I did)  ( <sub> or you may try using a ‘master makefile’ and a [symbolic link](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/) (but it'd only be for Labs1-3) </sub> ).
 - You shouldn't need to edit or compile anything in the `labs-examples` folder. 
 - With this system, you’ll always have a copy of the original lab files:
- - So you don’t need to re-download `lab-examples.zip`.
- - You are free to change the code however you want in your Lab folders.
+   - So you don’t need to re-download `lab-examples.zip`.
+   - You are free to change the code however you want in your Lab folders.
 
 ### Important Note for Mac Users:
 - The folder structure will work fine for you.
