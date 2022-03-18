@@ -43,9 +43,10 @@ I highly recommend this folder structure as it will allow you to:
 
 ## Important Note for Mac Users
 - The folder structure will work just fine for you.
-- But the files in Lab1 (makefile, CPP, shaders) will require a bit of editing before they can work.
+- But the files in Lab1 (CPP file, makefile, shaders) will require a bit of editing before they can work.
 - I have added comments mentioning 'Mac' where these changes to need to occur.
-- So to make the changes, just search for 'Mac' and follow the instructions.
+- So to make the changes, for the CPP file, makefile and shaders
+  just search for 'Mac' and follow the instructions in the comments.
 
 
 ## A Link Back to My Guide
@@ -57,6 +58,8 @@ Fully comment all files in Lab1
 - Makefile
 - vshader
 - fshader
+
+Merge update readme commits
 
 Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
 Get a Mac user to test it out
