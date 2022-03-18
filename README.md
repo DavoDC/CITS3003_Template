@@ -48,13 +48,13 @@ I highly recommend this folder structure as it will allow you to:
 
 ## Important Note for Mac Users
 - The folder structure will work just fine for you.
-- But the files in `Lab1` (CPP file, makefile, shaders) will require a bit of editing before they can work.
-- I have added comments mentioning 'Mac' where these changes to need to occur.
-- So to make these changes: 
-<br /> For the CPP file, makefile and shaders:
-<br /> - Search for 'Mac' in a text editor in each of these files.
-<br /> - Follow the instructions in the comments.
-
+- But you will need a different makefile, so:
+    - Delete `Lab1/makefile` (as it for Linux only)
+    - Rename `Lab1/Mac_makefile` to `makefile`
+- If you wish to run `diamond.cpp`:
+    - Open it in a text editor
+    - Search for "`# Create VAO on Mac`"
+    - Follow the instructions there for Mac users
 
 ## Links Back to My Guide
 - [Default](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ)
@@ -63,13 +63,8 @@ I highly recommend this folder structure as it will allow you to:
 
 
 ## TODO
-- Fully comment all files in Lab1
-  - Makefile
-  - vshader
-  - fshader
-- Merge update readme commits in GitHub desktop
-- Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
 - Get a Mac user to test it out, Jasper?
+
 - When done, update guide and  UNDER CONSTRUCTION parts
 - Put diamond over one in UWA repo and give link to other 
 - Let discord know ive revamped lab1 / organisational advice / template archive with better GitHub repo system
