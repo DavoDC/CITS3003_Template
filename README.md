@@ -1,6 +1,4 @@
 # CITS3003 Template Repository
-# (WORK IN PROGRESS, NOT FINISHED!)
-
 
 ## Description
 - This repo demonstrates a good organisational system and folder structure for doing the labs.
@@ -60,11 +58,3 @@ I highly recommend this folder structure as it will allow you to:
 - [Default](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ)
 - [The Lab 1 Recommendation Section](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ/edit#heading=h.n484gikc90x)
 - [The Organisational Advice Section](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ/edit#heading=h.8snhndvjpzls)
-
-
-## TODO
-- Get a Mac user to test it out, Jasper?
-
-- When done, update guide and  UNDER CONSTRUCTION parts
-- Put diamond over one in UWA repo and give link to other 
-- Let discord know ive revamped lab1 / organisational advice / template archive with better GitHub repo system
