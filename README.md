@@ -47,12 +47,13 @@ I highly recommend this folder structure as it will allow you to:
 ## Important Note for Mac Users
 - The folder structure will work just fine for you.
 - But you will need a different makefile, so:
-    - Delete `Lab1/makefile` (as it for Linux only)
+    - Delete `Lab1/makefile` (as it is for Linux only)
     - Rename `Lab1/Mac_makefile` to `makefile`
-- If you wish to run `diamond.cpp`:
+- If you wish to run `diamond.cpp`, you'll need to make some small edits:
     - Open it in a text editor
     - Search for "`# Create VAO on Mac`"
-    - Follow the instructions there for Mac users
+    - Follow the edit instructions there for Mac users
+
 
 ## Links Back to My Guide
 - [Default](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ)
