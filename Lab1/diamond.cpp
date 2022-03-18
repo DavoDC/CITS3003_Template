@@ -8,10 +8,9 @@
  * - Compile using: make diamond
  * - Run using:  ./diamond
  * 
- * Notes:
+ * Notes: 
  * - Intended for direct use on Linux
- * - Can work on Mac with some changes
- * - Mac users should search for 'Mac' to make the necessary code changes
+ * - But can work on Mac, search for '# Create VAO on Mac'
  */
 
 // ### Include textbook header file
@@ -115,6 +114,15 @@ void initS(void) {
     // - vao (GLuint array) = A reference to the VAO holder
     // https://docs.gl/gl4/glBindVertexArray
     glBindVertexArray(vao);
+
+    // # Create VAO on Mac
+    // Mac users should:
+    // - Enable these 3 lines below
+    // - Comment out the 3 previous lines
+    //
+    // GLuint vao[1];
+    // glGenVertexArraysAPPLE( 1, vao );
+    // glBindVertexArrayAPPLE( vao[0] );
 
 
 

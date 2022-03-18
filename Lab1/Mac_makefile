@@ -1,0 +1,74 @@
+# Makefile for the CITS3003 lab exercises running on the Mac
+#
+# Du Huynh
+# March 2016
+#
+#
+# CONFIGURED BY DAVID
+# FOR MAC ONLY
+
+#-----------------------------------------------------------------------------
+### VARIABLES
+#-----------------------------------------------------------------------------
+
+# Points to the downloaded lab files (Added by David)
+COMM = ../LAB_DWL
+
+# Compiler option (Edited by David)
+GCC_OPTIONS=-w -I $(COMM)/include
+
+# Set OpenGL options: include OpenGL and GLUT
+GL_OPTIONS=-framework OpenGL -framework GLUT 
+
+# Combine compiler and OpenGL options
+OPTIONS=$(GCC_OPTIONS) $(GL_OPTIONS)
+
+# InitShader object file
+SHADER = InitShader.o
+
+# Location of InitShader code (Edited by David)
+SHADER_SRC = $(COMM)/Common/InitShader.cpp
+
+# CPP files
+SOURCES = $(wildcard *.cpp)
+
+# Programs
+PROGRAMS = $(basename $(SOURCES))
+
+# Define extra un-needed files as 'dirt'
+DIRT = $(wildcard *.o *.i *~ */*~ *.log)
+
+# Define location to remove program
+RM = /bin/rm
+
+
+
+#-----------------------------------------------------------------------------
+### RULES
+#-----------------------------------------------------------------------------
+
+# By default, make all programs/targets
+default all: $(PROGRAMS)
+
+$(PROGRAMS): $(SHADER)
+
+$(SHADER): $(SHADER_SRC)
+	g++ -c $(SHADER_SRC) $(OPTIONS)
+
+
+# Compile all CPP files with options and shader helper program
+%: %.cpp
+	g++ $@.cpp $(OPTIONS) $(SHADER) -o $@
+
+
+### Commmands
+# Clean by removing 'dirt' files
+clean:
+	$(RM) $(DIRT)
+
+# Remove targets
+rmtargets:
+	$(RM) -f $(PROGRAMS)
+
+# Clobber by cleaning and removing targets
+clobber: clean rmtargets
