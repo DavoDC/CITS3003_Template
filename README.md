@@ -62,5 +62,7 @@ I highly recommend this folder structure as it will allow you to:
   - fshader
 - Merge update readme commits in GitHub desktop
 - Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
-- Get a Mac user to test it out
+- Get a Mac user to test it out, Jasper?
 - When done, update guide and  UNDER CONSTRUCTION parts
+- Put diamond over one in UWA repo and give link to other 
+- Let discord know ive revamped lab1 / organisational advice / template archive with better GitHub repo system
