@@ -1,4 +1,5 @@
 # CITS3003 Template Repository
+# (WORK IN PROGRESS, NOT FINISHED!)
 
 ## Description
 - This repo demonstrates a good organisational system and folder structure for doing the labs.
@@ -24,7 +25,7 @@ I highly recommend this folder structure as it will allow you to:
 ## Lab Usage Instructions
 1. **Open your CITS3003 folder in the file manager GUI**.
 2. **Enter the `LAB_DWL` folder and copy the needed base files for the Lab you are on**
-<br /> (e.g. For Lab1 on Linux, go into `CITS3003\LAB_DWL\CHAPTER02_CODE\LINUX_VERSIONS` and copy example1.cpp).
+<br /> (e.g. For Lab1 on Linux, go into `CITS3003\LAB_DWL\CHAPTER02_CODE\LINUX_VERSIONS` and copy `example1.cpp`).
 3. **Paste them into the relevant Lab folder** 
 <br /> (e.g. Paste `example1.cpp` into `CITS3003\Lab1`).
 4. **Rename/edit/compile/execute your code within that Lab folder** 
@@ -57,24 +58,7 @@ Fully comment all files in Lab1
 - vshader
 - fshader
 
-
-
 Add 'Mac changes' comments by comparing code to MAC VERSIONS Code
-
 Get a Mac user to test it out
 
-
-
-
-UPDATE GUIDE:
-
-ORGANISATION:
-Add repo link
-
-ADD TO LAB 1 SECTION:
-Make diamond.cpp the simple starting point in Lab1 section
-Mention that comments have been added to diamond file, makefile and shaders!
-added documentation links
-mentioned this is a simple but fully commented code file
-Good to help you understand OpenGL programs
-Add warning for Mac
+UPDATE GUIDE: Remove UNDER CONSTRUCTION parts
