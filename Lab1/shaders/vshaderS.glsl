@@ -1,4 +1,4 @@
-// #version 150
+#version 150
 // This is a shader preprocessor flag meaning 'GLSL version 1.50'.
 // MAC USERS should comment this out! (i.e. replace with '// #version 150')
 
