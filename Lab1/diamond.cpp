@@ -10,7 +10,7 @@
  * 
  * Notes: 
  * - Intended for direct use on Linux
- * - But can work on Mac, search for '# Create VAO on Mac'
+ * - But can work on Mac with some small edits, search for 'MAC USERS'
  */
 
 // ### Include textbook header file
@@ -116,9 +116,9 @@ void initS(void) {
     glBindVertexArray(vao);
 
     // # Create VAO on Mac
-    // Mac users should:
-    // - Enable these 3 lines below
-    // - Comment out the 3 previous lines
+    // MAC USERS should:
+    // - Uncomment these 3 lines below
+    // - Comment out the 3 previous, similar lines
     //
     // GLuint vao[1];
     // glGenVertexArraysAPPLE( 1, vao );
@@ -309,6 +309,8 @@ int main(int argc, char** argv) {
 
     // Ask FreeGLUT to return a forward-compatible OpenGL 4.0 core-profile context
     // (No documentation available for FreeGLUT extensions)
+	//
+	// MAC USERS should comment out both of these 'glutInitContext...' lines
     glutInitContextVersion(4, 0);
     glutInitContextProfile(GLUT_CORE_PROFILE);
 
@@ -318,6 +320,8 @@ int main(int argc, char** argv) {
 
     // Initialize GLEW (OpenGL Extension Wrangler)
     // http://glew.sourceforge.net/basic.html
+	//
+	// MAC USERS should comment out the glewInit() line
     glewInit();
 
     // Call our custom initialization function

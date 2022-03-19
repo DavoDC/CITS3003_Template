@@ -1,14 +1,12 @@
 #version 150
 // This is a shader preprocessor flag meaning 'GLSL version 1.50'.
+// MAC USERS should comment this out! (i.e. replace with '// #version 150')
 
 // ############ The Fragment Shader ############
 // Based on Mac fshader21.glsl, but works on Linux too.
 // Does per-fragment operations.
 // Each fragment invokes an execution of the fragment shader. 
 // Each execution of the fragment shader must output a color for the fragment.
-
-
-
 
 // The main function
 void

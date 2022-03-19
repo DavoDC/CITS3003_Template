@@ -1,11 +1,7 @@
-# Makefile for the CITS3003 lab exercises running on the Mac
-#
-# Du Huynh
-# March 2016
-#
+# Makefile for the CITS3003 Labs
 #
 # CONFIGURED BY DAVID
-# FOR MAC ONLY
+# FOR MAC USERS ONLY,   LINUX USERS CAN DELETE
 
 #-----------------------------------------------------------------------------
 ### VARIABLES

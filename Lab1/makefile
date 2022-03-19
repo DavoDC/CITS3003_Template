@@ -1,7 +1,8 @@
 #! /usr/bin/make
+# Makefile for the CITS3003 Labs
 #
 # CONFIGURED BY DAVID
-# FOR LINUX ONLY
+# FOR LINUX USERS ONLY,   MAC USERS CAN DELETE
 
 #-----------------------------------------------------------------------------
 ### VARIABLES

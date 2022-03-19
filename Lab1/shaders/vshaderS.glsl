@@ -1,5 +1,6 @@
-#version 150
+// #version 150
 // This is a shader preprocessor flag meaning 'GLSL version 1.50'.
+// MAC USERS should comment this out! (i.e. replace with '// #version 150')
 
 // ############ The Vertex Shader ############
 // Based on vshader21.glsl, works on Mac and Linux.
@@ -9,6 +10,8 @@
 
 // The current vertex coming in from the application program
 in vec4 vPosition;
+// MAC USERS should comment out the line above and uncomment the one below!
+// attribute vec4 vPosition;
 
 // The main function
 void
