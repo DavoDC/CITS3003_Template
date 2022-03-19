@@ -1,14 +1,14 @@
 
 /*
  * Name: diamond.cpp
- * 
+ *
  * Author: David
- * 
+ *
  * Usage:
  * - Compile using: make diamond
  * - Run using:  ./diamond
- * 
- * Notes: 
+ *
+ * Notes:
  * - Intended for direct use on Linux
  * - But can work on Mac with some small edits, search for 'MAC USERS'
  */
@@ -32,7 +32,7 @@ const int numPoints = 8;
  * - Compiles shaders and registers shader program
  * - Registers shader variables
  *
- * I added an 'S' to the function name to demonstrate 
+ * I added an 'S' to the function name to demonstrate
  * that this function can have any name.
  */
 void initS(void) {
@@ -149,7 +149,7 @@ void initS(void) {
     // - points (const GLvoid * data) = Pointer to vertice data
     // - GL_STATIC_DRAW (GLenum usage) = Expected usage pattern
     //  - STATIC: The data store contents will be modified once and used many times.
-    //  - DRAW: The data store contents are modified by the application, 
+    //  - DRAW: The data store contents are modified by the application,
     //          and used as the source for GL drawing and image specification commands.
     // https://docs.gl/gl4/glBufferData
     glBufferData(GL_ARRAY_BUFFER, sizeof (points), points, GL_STATIC_DRAW);
@@ -160,10 +160,10 @@ void initS(void) {
     // InitShader() is a function from the textbook files.
     // Specifically, InitShader.cpp in the Common folder.
     // It abstracts away some of the complexity involved in compiling shaders.
-    // The shaders have the extension "GLSL", 
+    // The shaders have the extension "GLSL",
     // which means "OpenGL Shader Language".
-    // 
-    // I've put the shaders in a folder and renamed them to 
+    //
+    // I've put the shaders in a folder and renamed them to
     // demonstrate that this is possible.
     //
     // - "shaders/vshaderS.glsl" = Path to the vertex shader
@@ -233,7 +233,7 @@ void initS(void) {
 /**
  * The display callback function.
  * Called every time the window is refreshed.
- * I added an 'S' to the function name to demonstrate 
+ * I added an 'S' to the function name to demonstrate
  * that this function can have any name.
  */
 void displayS(void) {
@@ -269,7 +269,7 @@ void displayS(void) {
  * The Main function.
  * The 'entrypoint' for this program.
  * This function is called first when you execute the program.
- * 
+ *
  * @param argc The number of arguments
  * @param argv The arguments array
  * @return 0 if ran successfully
@@ -309,8 +309,8 @@ int main(int argc, char** argv) {
 
     // Ask FreeGLUT to return a forward-compatible OpenGL 4.0 core-profile context
     // (No documentation available for FreeGLUT extensions)
-	//
-	// MAC USERS should comment out both of these 'glutInitContext...' lines
+    //
+    // MAC USERS should comment out both of these 'glutInitContext...' lines
     glutInitContextVersion(4, 0);
     glutInitContextProfile(GLUT_CORE_PROFILE);
 
@@ -320,8 +320,8 @@ int main(int argc, char** argv) {
 
     // Initialize GLEW (OpenGL Extension Wrangler)
     // http://glew.sourceforge.net/basic.html
-	//
-	// MAC USERS should comment out the glewInit() line
+    //
+    // MAC USERS should comment out the glewInit() line
     glewInit();
 
     // Call our custom initialization function
@@ -334,11 +334,11 @@ int main(int argc, char** argv) {
     // as the display callback function.
     // https://www.opengl.org/resources/libraries/glut/spec3/node46.html
     glutDisplayFunc(displayS);
-    // 
+    //
     // There are similar functions which register callbacks for other events.
-    // e.g. glutKeyboardFunc() registers the function that should be 
+    // e.g. glutKeyboardFunc() registers the function that should be
     // called when a key is pressed.
-    // More examples: 
+    // More examples:
     // https://www.opengl.org/resources/libraries/glut/spec3/node45.html
 
     // ### Enter infinite event loop.
