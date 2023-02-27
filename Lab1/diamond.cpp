@@ -148,8 +148,9 @@ void initS(void) {
     // - sizeof (points) (GLsizeiptr size) = Size in bytes of VBO's new data store
     // - points (const GLvoid * data) = Pointer to vertice data
     // - GL_STATIC_DRAW (GLenum usage) = Expected usage pattern
-    //  - STATIC: The data store contents will be modified once and used many times.
-    //  - DRAW: The data store contents are modified by the application,
+    //  > Composed of two keywords:
+    //  > STATIC: The data store contents will be modified once and used many times.
+    //  > DRAW: The data store contents are modified by the application,
     //          and used as the source for GL drawing and image specification commands.
     // https://docs.gl/gl4/glBufferData
     glBufferData(GL_ARRAY_BUFFER, sizeof (points), points, GL_STATIC_DRAW);
