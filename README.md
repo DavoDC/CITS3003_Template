@@ -13,9 +13,8 @@ I highly recommend this folder structure as it will allow you to:
 - Avoid dealing with so many levels of nested folders (Abstract away from the `labs-examples`/`LAB_DWL` folder).
 - Only have the code you are working on in your current Lab folder (and working directory in the terminal).
 - Find the code files that you've worked on easier.
-Also:
-- You will avoid many errors since the Makefile has been fixed for you.
 
+<br /> **Also:** You will avoid many common errors since the Makefile has been fixed for you.
 
 ## Initial Setup
 1. Open your terminal to where you want your CITS3003 folder to be (See [here for advice](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ/edit#heading=h.42yr22ji4ygg)).
