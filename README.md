@@ -13,7 +13,8 @@ I highly recommend this folder structure as it will allow you to:
 - Avoid dealing with so many levels of nested folders (Abstract away from the `labs-examples`/`LAB_DWL` folder).
 - Only have the code you are working on in your current Lab folder (and working directory in the terminal).
 - Find the code files that you've worked on easier.
-- Have less code duplication.
+Also:
+- You will avoid many errors since the Makefile has been fixed for you.
 
 
 ## Initial Setup
