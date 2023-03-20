@@ -18,8 +18,9 @@ I highly recommend this folder structure as it will allow you to:
 
 ## Initial Setup
 1. Open your terminal to where you want your CITS3003 folder to be (See [here for advice](https://docs.google.com/document/d/1mu-z7HbcocU0U21qmdsqrVXK6f_btW0oJq6AvEUAMcQ/edit#heading=h.42yr22ji4ygg)).
-2. Copy, paste and execute the command: `git clone https://github.com/DavoDC/CITS3003_Template CITS3003` 
-3. This repo will now be in a folder called `CITS3003` in the current directory.
+2. Install the Git CLI system-wide using: `sudo apt-get update && sudo apt-get install git`
+3. Copy, paste and execute the command: `git clone https://github.com/DavoDC/CITS3003_Template CITS3003` 
+4. This repo will now be in a folder called `CITS3003` in the current directory.
 
 
 ## General Usage
