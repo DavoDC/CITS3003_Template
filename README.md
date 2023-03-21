@@ -6,7 +6,9 @@
 - The Lab folders (Lab1, Lab2.. etc) contain specially configured makefiles that refer back to the `LAB_DWL` folder.
   - The same makefile can be used for Lab1, 2 and 3.
   - Lab4 and Lab5 will need a slightly different makefile, because the working folders are one level lower.
-
+- **Note:** 
+  - This repo is configured to work with Linux by default. 
+  - However it can work on Mac easily, if some **[extra steps](https://github.com/DavoDC/CITS3003_Template#important-note-for-mac-users)** are done (**MAC USERS CHECK THIS!**)
 
 ## Benefits
 I highly recommend this folder structure as it will allow you to:
